@@ -1,0 +1,25 @@
+{
+  "name": "SoftgamesInterview",
+  "version": "1.0.0",
+  "description": "A simple interview test writtin in TypeScript.",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --mode=production",
+    "dev": "npx webpack-dev-server --mode=development --host=0.0.0.0 --disable-host-check --useLocalIp"
+  },
+  "repository": {},
+  "author": "Paul McMonagle <mcmonagle.paul@gmail.com> (http://github.com/pmcmonagle)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.15.0"
+  }
+}
